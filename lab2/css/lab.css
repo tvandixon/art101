@@ -17,6 +17,7 @@ p{
 }
 
 #content{
+  font-family: serif;
   background-color: #b192f0;
   width: 800px;
   min-height: 100px;
