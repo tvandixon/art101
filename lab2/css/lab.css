@@ -1,6 +1,6 @@
 h1{
   color: white;
-  font-size: 200%;
+  font-size: 300%;
 }
 
 p{
@@ -16,12 +16,11 @@ p{
 }
 
 #content{
-  font-family: "comic sans";
   background-color: #b192f0;
   width: 800px;
   min-height: 300px;
-  padding: 10px;
+  padding: 1px;
   margin: 10px;
   border: solid 1px #444444;
-  font-size: 20px;
+  font-size: 30px;
 }
