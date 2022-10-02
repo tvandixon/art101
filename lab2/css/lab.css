@@ -4,10 +4,17 @@ h1{
 }
 
 p{
-  font-family: "fantasy";
+  font-family: "cursive";
   text-indent: 20px;
   margin-left: 10px;
 }
+
+#greeting{
+  background-color: #44006e;
+  padding: 10px;
+  margin: 10px;
+}
+
 
 #content{
   background-color: #b192f0;
