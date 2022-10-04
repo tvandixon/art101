@@ -15,13 +15,14 @@ p{
   background-color: #44006e;
   padding: 10px;
   margin: 10px;
-  border: solid 5px #9fabfc;
+  border: dashed 5px #9fabfc;
+  border-radius: 20px;
 }
 
 #content{
   font-family: sans-serif;
   background-color: #b192f0;
-  width: 200px;
+  width: 1073px;
   min-height: 100px;
   padding: 10px;
   margin: 10px;
@@ -30,5 +31,10 @@ p{
 }
 
 #image{
-  text-align: right;
+  margin: 10px;
+  margin-right: 1073px;
+  border: solid 1px #44006e;
+  border-width: thick;
+  border-spacing: inherit;
+  min-width: 1073px;
 }
