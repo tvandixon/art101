@@ -1,17 +1,8 @@
-h1{
-  color: white;
-  font-size: 220%;
-  text-align: center;
-}
-
-p{
-  text-indent: 20px;
-  margin-left: 10px;
-  text-align: left;
-}
-
 #greeting{
   font-family: sans-serif;
+  color: white;
+  font-size: 150%;
+  text-align: center;
   background-color: #44006e;
   padding: 10px;
   margin: 10px;
@@ -20,17 +11,24 @@ p{
 }
 
 #content{
+  text-align: center;
+  position: fixed;
   font-family: sans-serif;
   background-color: #b192f0;
-  width: 1073px;
-  min-height: 100px;
+  text-indent: 20px;
   padding: 10px;
-  margin: 10px;
+  margin: 30px;
   border: solid 1px #444444;
-  font-size: 24px;
+  min-height: 600px;
+  max-width: 1360px;
+  font-size: 45px;
 }
 
 #image{
-  margin: 15px;
-  padding: 10px;
+  text-align: right;
+  margin: 20px;
+  padding: 30px;
+  background-color: #9fabfc;
+  border: solid 2px #444444;
+  border-radius: 20px;
 }
