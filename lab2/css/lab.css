@@ -19,8 +19,9 @@ p{
 #content{
   font-family: sans-serif;
   background-color: #b192f0;
+  width: 1073px;
   min-height: 100px;
-  padding: 5px;
+  padding: 10px;
   margin: 10px;
   border: solid 1px #444444;
   font-size: 24px;
