@@ -1,11 +1,13 @@
 h1{
   color: white;
-  font-size: 200%;
+  font-size: 220%;
+  text-align: center;
 }
 
 p{
   text-indent: 20px;
   margin-left: 10px;
+  text-align: left;
 }
 
 #greeting{
@@ -19,10 +21,14 @@ p{
 #content{
   font-family: sans-serif;
   background-color: #b192f0;
-  width: 1073px;
+  width: 200px;
   min-height: 100px;
   padding: 10px;
   margin: 10px;
   border: solid 1px #444444;
   font-size: 24px;
+}
+
+#image{
+  text-align: right;
 }
