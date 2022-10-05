@@ -14,9 +14,17 @@
   text-align: center;
   font-family: sans-serif;
   background-color: #b192f0;
-  text-indent: 20px;
   padding: 10px;
   margin: 30px;
   border: solid 1px #444444;
   font-size: 25px;
+}
+
+#our-list{
+  text-align: left;
+  font-family: cursive;
+  background-color: Red
+  text-indent: 20px;
+
+
 }
