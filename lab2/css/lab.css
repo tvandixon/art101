@@ -41,7 +41,6 @@ p#quote{
   font-family: fantasy;
   font-size: 30px;
   background-color: #3d6eff;
-  max-width: inherit;
   padding: 10px;
   border-radius: 20px;
 }
