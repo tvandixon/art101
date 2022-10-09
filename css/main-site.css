@@ -1,0 +1,66 @@
+body{
+  background-image:url(file:///C:/Users/Tristan/Documents/GitHub/art101/img/topography.svg);
+}
+
+a {
+  color: #524739;
+}
+
+#home-icon{
+  width: 100px;
+  height: auto;
+  float: right;
+  margin: 15px;
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.greeting{
+  color: white;
+  background-color: #b58341;
+  font-size: 20px;
+  max-width: 700px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: monospace;
+}
+
+#my-portrait{
+  width: 500px;
+  height: auto;
+  float:right;
+  border: 3px black;
+  margin-right: 10px;
+  padding: 12px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.introduction{
+  font-family:"Lucida Sans";
+  font-size: 28px;
+  color: white;
+  background-color: #524739;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 10px;
+  margin-right: 550px;
+  text-align: center;
+}
+
+#lab-list h2{
+  text-shadow: 1px 2px 4px black;
+}
+
+#lab-list{
+  font-family:"Lucida Sans";
+  color: white;
+  font-size: 28px;
+  background-image: url(https://images.template.net/97551/free-tan-marble-background-3twux.png);
+  margin: 10px;
+  border-radius: 20px;
+  padding: 25px;
+  margin-right: 550px;
+}
