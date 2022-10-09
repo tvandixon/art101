@@ -1,5 +1,5 @@
 body{
-  background-image:url(file:///C:/Users/Tristan/Documents/GitHub/art101/img/topography.svg);
+  background-image: url(https://st.depositphotos.com/1510192/4921/v/950/depositphotos_49215025-stock-illustration-city-map-abstract-seamless-pattern.jpg);
 }
 
 a {
@@ -41,7 +41,7 @@ a {
 }
 
 #my-portrait{
-  width: 500px;
+  width: 625px;
   height: auto;
   float:right;
   border: 3px black;
@@ -53,13 +53,13 @@ a {
 
 .introduction{
   font-family:"Lucida Sans";
-  font-size: 28px;
+  font-size: 30px;
   color: white;
   background-color: #524739;
   border-radius: 20px;
   padding: 25px;
   margin: 10px;
-  margin-right: 550px;
+  margin-right: 675px;
   text-align: center;
 }
 
@@ -75,5 +75,5 @@ a {
   margin: 10px;
   border-radius: 20px;
   padding: 25px;
-  margin-right: 550px;
+  margin-right: 675px;
 }
