@@ -4,6 +4,7 @@
 }
 
 body{
+  margin: auto;
   font-family: "lucida sans";
   text-align: center;
   max-width: 1025px;
