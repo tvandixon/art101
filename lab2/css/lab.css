@@ -1,6 +1,8 @@
 #home-icon{
   width: 100px;
   height: auto;
+  float: right;
+  margin: 15px;
 }
 
 #greeting{
