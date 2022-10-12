@@ -1,7 +1,8 @@
 body {
- margin: auto;
- background-image: url("https://i.pinimg.com/564x/71/c3/d7/71c3d72d2eb35afb628f5eb4386438ce.jpg");
- background-color: #cccccc;
+  display: table;
+  margin: auto;
+  background-image: url("https://i.pinimg.com/564x/71/c3/d7/71c3d72d2eb35afb628f5eb4386438ce.jpg");
+  background-color: #cccccc;
 }
 
 p{
@@ -14,44 +15,36 @@ p{
 
 .challenges h1{
   font-family: helvetica;
-  text-align: center;
   color: white;
   background-color: black;
   max-width: 355px;
   padding: 20px;
-  margin: auto;
   margin-top: 30px;
   border-radius: 30px;
 }
 
 .problems h1{
   font-family: helvetica;
-  text-align: center;
   color: white;
   margin-top: 20px;
   background-color: black;
   max-width: 355px;
   padding:20px;
-  margin: auto;
   border-radius: 30px;
 }
 
 .results h1{
   font-family: helvetica;
-  text-align: center;
   color: white;
   background-color: black;
   max-width: 355px;
   margin-top: 20px;
   padding: 20px;
-  margin: auto;
   border-radius: 30px;
 }
 
 .challenges p{
   font-family: helvetica;
-  text-align: center;
-  margin: auto;
   max-width: 600px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -64,8 +57,6 @@ p{
 
 .problems p{
   font-family: helvetica;
-  text-align: center;
-  margin: auto;
   max-width: 600px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -74,8 +65,6 @@ p{
 
 .results p{
   font-family: helvetica;
-  text-align: center;
-  margin: auto;
   max-width: 600px;
   margin-top: 20px;
   color: white;
@@ -83,9 +72,13 @@ p{
 
 .results pre,code{
   margin-top: 20px;
-  margin-left: 250px;
-  margin-right: 250px;
   color: white;
   background-color: #58748D;
   border-radius: 20px;
+  max-width: 700px;
+}
+
+img{
+  width: 700px;
+  text-align: center;
 }
