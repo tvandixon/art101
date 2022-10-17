@@ -1,5 +1,5 @@
 /*
- * Author:    Tristan Van Dixon & Alex Jones <tvandixo@ucsc.edu>
+ * Author:    Tristan Van Dixon, Jacquelyn Meek, Alex Jones
  * Created:   18.10.2022
  * License: Public Domain
  */
