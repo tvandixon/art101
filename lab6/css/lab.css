@@ -21,7 +21,7 @@ body{
 
 .output{
   font-size: 14x;
-  width: 300px;
+  width: 500px;
   float: right;
   background-color: #b0a6a5;
   padding: 15px;
@@ -29,9 +29,9 @@ body{
 
 #outcomes-heading1{
   color: white;
-  font-size: 12px;
+  font-size: 8px;
   display: inline-flex;
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 20px;
   padding: 10px;
   background-color: #331d1c;
@@ -40,18 +40,18 @@ body{
 
 #outcomes-info1{
   text-align: center;
-  font-size: 18px;
+  font-size: 12px;
   color: white;
   display: inline-flex;
-  max-width: 300px;
+  max-width: 200px;
   padding: 10px;
   background-color: black;
   border-radius: 20px;
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 #outcomes-heading2{
-  font-size: 12px;
+  font-size: 8px;
   color:white;
   display: inline-flex;
   margin-top: 20px;
@@ -62,10 +62,10 @@ body{
 
 #outcomes-info2{
   text-align: center;
-  font-size: 18px;
+  font-size: 12px;
   color:white;
   display: inline-flex;
-  max-width: 300px;
+  max-width: 200px;
   padding: 10px;
   background-color: black;
   border-radius: 20px;
@@ -73,28 +73,32 @@ body{
 
 #outcomes-results{
   text-align: center;
-  margin-top: 75px;
+  margin-top: 125px;
   background-color: #331d1c;
   color: white;
   padding: 10px;
 }
 
+#screenshots-headings{
+  font-size: 11px;
+}
+
 #screenshots-headings .head-one{
   display: inline-flex;
   color: white;
-  margin-left: 250px;
+  margin-left: 200px;
 }
 
 #screenshots-headings .head-two{
   display: inline-flex;
   color: white;
-  margin-left: 465px;
+  margin-left: 250px;
 }
 
 #screenshots-headings .head-three{
   display: inline-flex;
   color: white;
-  margin-left: 665px;
+  margin-left: 475px;
 }
 
 .screenshots-images{
