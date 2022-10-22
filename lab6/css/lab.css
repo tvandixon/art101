@@ -107,3 +107,24 @@ body{
 .screenshots-images{
   margin-left: 100px;
 }
+
+.screenshots-captions{
+  color: white;
+  font-style:italic;
+  font-size: 8px;
+}
+
+.screenshots-captions .caption-one{
+  display: inline-flex;
+  margin-left: 110px;
+}
+
+.screenshots-captions .caption-two{
+  display: inline-flex;
+  margin-left: 140px;
+}
+
+.screenshots-captions .caption-three{
+  display: inline-flex;
+  margin-left: 375px;
+}
