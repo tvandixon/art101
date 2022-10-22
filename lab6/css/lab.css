@@ -90,19 +90,19 @@ body{
 #screenshots-headings .head-one{
   display: inline-flex;
   color: white;
-  margin-left: 200px;
+  margin-left: 250px;
 }
 
 #screenshots-headings .head-two{
   display: inline-flex;
   color: white;
-  margin-left: 250px;
+  margin-left: 275px;
 }
 
 #screenshots-headings .head-three{
   display: inline-flex;
   color: white;
-  margin-left: 475px;
+  margin-left: 500px;
 }
 
 .screenshots-images{
