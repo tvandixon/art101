@@ -43,7 +43,7 @@ body{
   font-size: 12px;
   color: white;
   display: inline-flex;
-  max-width: 250px;
+  max-width: 350px;
   padding: 10px;
   background-color: black;
   border-radius: 20px;
@@ -65,7 +65,7 @@ body{
   font-size: 12px;
   color:white;
   display: inline-flex;
-  max-width: 250px;
+  max-width: 350px;
   padding: 10px;
   background-color: black;
   border-radius: 20px;
@@ -73,7 +73,7 @@ body{
 
 #outcomes-results{
   text-align: center;
-  margin-top: 125px;
+  margin-top: 110px;
   background-color: #331d1c;
   color: white;
   padding: 10px;
@@ -82,6 +82,7 @@ body{
 #outcomes-results p{
   font-size: 11px;
 }
+
 #screenshots-headings{
   font-size: 11px;
 }
@@ -105,26 +106,26 @@ body{
 }
 
 .screenshots-images{
-  margin-left: 100px;
+  margin-left: 150px;
 }
 
 .screenshots-captions{
   color: white;
   font-style:italic;
   font-size: 8px;
+  margin-left: 165px
 }
 
 .screenshots-captions .caption-one{
   display: inline-flex;
-  margin-left: 110px;
 }
 
 .screenshots-captions .caption-two{
   display: inline-flex;
-  margin-left: 140px;
+  margin-left: 160px;
 }
 
 .screenshots-captions .caption-three{
   display: inline-flex;
-  margin-left: 375px;
+  margin-left: 415px;
 }
