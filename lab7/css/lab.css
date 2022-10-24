@@ -1,3 +1,5 @@
+
+
 #boom-frog{
   float: right;
   margin-right: 10px;
@@ -155,4 +157,17 @@ body{
 .screenshots-captions .caption-three{
   display: inline-flex;
   margin-left: 300px;
+}
+
+#punkfrog{
+  float: right;
+  margin-left: 20px;
+}
+
+#punk-for-frogs{
+  float: right;
+  width: 200px;
+  text-align: center;
+  margin-left: 100px;
+  padding-top: 10px;
 }
