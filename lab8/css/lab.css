@@ -71,5 +71,7 @@ body {
 }
 
 .screenshots-images {
+  display: inline-flex;
+  text-align: center;
   margin: 50px;
 }
