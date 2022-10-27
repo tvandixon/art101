@@ -1,5 +1,5 @@
 #home-icon {
-  width: 60px;
+  width: 75px;
   height: auto;
   float: right;
   margin-right: 10px;
@@ -13,21 +13,24 @@ body {
 }
 
 .title {
-  font-size: 12px;
+  font-size: 15px;
   color: white;
   background-color: black;
-  padding: 12px;
+  padding: 10px;
+  font-family:'Jolly Lodger';
 }
 
 #outcomes-heading1 {
-  color: black;
-  font-size: 8px;
+  color: #BFBDC1;
+  font-size: 15px;
+  height: 60px;
   display: inline-flex;
   margin-left: 50px;
   margin-top: 20px;
   padding: 10px;
-  background-color: #adeee3;
+  background-color: #37323e;
   border-radius: 20px;
+  font-family:'Jolly Lodger';
 }
 
 #outcomes-info1 {
@@ -35,21 +38,23 @@ body {
   font-size: 12px;
   color: white;
   display: inline-flex;
-  max-width: 350px;
+  max-width: 600px;
   padding: 10px;
   background-color: black;
   border-radius: 20px;
   margin-right: 50px;
+  font-family: monospace;
 }
 
 #outcomes-heading2 {
-  font-size: 8px;
-  color: black;
+  font-size: 15px;
+  color: #BFBDC1;
   display: inline-flex;
   margin-top: 20px;
   padding: 10px;
-  background-color: #adeee3;
+  background-color: #37323e;
   border-radius: 20px;
+  font-family:'Jolly Lodger';
 }
 
 #outcomes-info2 {
@@ -57,10 +62,12 @@ body {
   font-size: 12px;
   color: white;
   display: inline-flex;
-  max-width: 350px;
+  max-width: 500px;
   padding: 10px;
   background-color: black;
   border-radius: 20px;
+  margin-right: 50px;
+  font-family: monospace;
 }
 
 .screenshots-images {
