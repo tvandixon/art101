@@ -74,4 +74,17 @@ body {
   display: inline-flex;
   text-align: center;
   margin: 50px;
+  color: white;
+}
+
+.screenshots-images img{
+  padding: 5px;
+}
+
+.screenshots-images {
+  font-size: 15px;
+}
+
+.screenshots-images #screenshot-3 {
+  max-width: 390px;
 }
