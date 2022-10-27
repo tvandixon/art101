@@ -1,12 +1,10 @@
-
-
-#boom-frog{
+#boom-frog {
   float: right;
   margin-right: 10px;
   margin-top: 10px;
 }
 
-#home-icon{
+#home-icon {
   width: 60px;
   height: auto;
   float: right;
@@ -14,21 +12,21 @@
   margin-top: 10px;
 }
 
-body{
+body {
   margin: auto;
   background-image: url(https://images3.alphacoders.com/115/1155240.png);
   background-size: cover;
   font-family: Verdana, Geneva, sans-serif;
 }
 
-.title{
+.title {
   font-size: 12px;
   color: white;
-  background-color:#63b995;
+  background-color: #63b995;
   padding: 10px;
 }
 
-.output{
+.output {
   text-align: center;
   font-size: 14px;
   width: 300px;
@@ -41,7 +39,7 @@ body{
   color: white;
 }
 
-#outcomes-heading1{
+#outcomes-heading1 {
   color: black;
   font-size: 8px;
   display: inline-flex;
@@ -52,7 +50,7 @@ body{
   border-radius: 20px;
 }
 
-#outcomes-info1{
+#outcomes-info1 {
   text-align: center;
   font-size: 12px;
   color: white;
@@ -64,7 +62,7 @@ body{
   margin-right: 50px;
 }
 
-#outcomes-heading2{
+#outcomes-heading2 {
   font-size: 8px;
   color: black;
   display: inline-flex;
@@ -74,10 +72,10 @@ body{
   border-radius: 20px;
 }
 
-#outcomes-info2{
+#outcomes-info2 {
   text-align: center;
   font-size: 12px;
-  color:white;
+  color: white;
   display: inline-flex;
   max-width: 350px;
   padding: 10px;
@@ -85,7 +83,7 @@ body{
   border-radius: 20px;
 }
 
-#outcomes-results{
+#outcomes-results {
   text-align: center;
   margin-top: 200px;
   color: white;
@@ -93,15 +91,15 @@ body{
   opacity: 80%;
 }
 
-#outcomes-results p{
+#outcomes-results p {
   font-size: 11px;
 }
 
-#screenshots-headings{
+#screenshots-headings {
   font-size: 11px;
 }
 
-#screenshots-headings .head-one{
+#screenshots-headings .head-one {
   display: inline-flex;
   background-color: black;
   border-radius: 10px;
@@ -112,7 +110,7 @@ body{
   margin-left: 280px;
 }
 
-#screenshots-headings .head-two{
+#screenshots-headings .head-two {
   display: inline-flex;
   background-color: black;
   border-radius: 10px;
@@ -123,7 +121,7 @@ body{
   margin-left: 460px;
 }
 
-#screenshots-headings .head-three{
+#screenshots-headings .head-three {
   display: inline-flex;
   background-color: black;
   border-radius: 10px;
@@ -134,37 +132,36 @@ body{
   margin-left: 460px;
 }
 
-.screenshots-images{
+.screenshots-images {
   margin-left: 50px;
 }
 
-.screenshots-captions{
+.screenshots-captions {
   color: white;
-  font-style:italic;
+  font-style: italic;
   font-size: 10px;
   margin-left: 175px
 }
 
-.screenshots-captions .caption-one{
+.screenshots-captions .caption-one {
   display: inline-flex;
 }
 
-.screenshots-captions .caption-two{
+.screenshots-captions .caption-two {
   display: inline-flex;
   margin-left: 275px;
 }
 
-.screenshots-captions .caption-three{
+.screenshots-captions .caption-three {
   display: inline-flex;
   margin-left: 300px;
 }
 
-#punkfrog{
+#punkfrog {
   float: right;
   margin-left: 20px;
 }
 
-#punkfrogmusic{
+#punkfrogmusic {
   float: right;
-  margin-left: 100px;
 }
