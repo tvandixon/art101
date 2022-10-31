@@ -2,9 +2,9 @@
 body {
   background-image: url(https://img.wattpad.com/0c1912cd0abe972cc5a4df926ef106bdafe69a56/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6846314d7772712d694b67356a673d3d2d3936383938313930302e313633663739646161666138353537333832383136373734303432342e676966);
   background-size: cover;
+  background-position: center;
   font-family: 'Anonymous Pro';
   font-size: 22px;
-  margin:auto;
 }
 
 #foreground {
@@ -12,7 +12,7 @@ body {
   margin-top: -10px;
   margin-left: -10px;
   width: 1700px;
-  height: 1000px;
+  height: 1050px;
   opacity: 0.8;
   mix-blend-mode: difference;
 }
@@ -25,12 +25,23 @@ body {
   padding: 10px;
 }
 
+#output {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#output h4 {
+  color: pink;
+}
+
 #outcomes-heading1 {
   font-style: oblique;
-  color: white;
-  font-size: 15px;
+  color: pink;
+  font-size: 12px;
   display: inline-flex;
-  margin-left: 210px;
+  margin-left: 250px;
   margin-top: 30px;
 }
 
@@ -39,7 +50,7 @@ body {
   font-size: 12px;
   color: white;
   display: inline-flex;
-  max-width: 450px;
+  max-width: 400px;
   padding: 10px;
   background-color: black;
   border-radius: 20px;
@@ -47,9 +58,9 @@ body {
 }
 
 #outcomes-heading2 {
-  font-size: 15px;
+  font-size: 12px;
   font-style: oblique;
-  color: white;
+  color: pink;
   display: inline-flex;
   margin-top: 30px;
 }
@@ -59,7 +70,7 @@ body {
   font-size: 12px;
   color: white;
   display: inline-flex;
-  max-width: 450px;
+  max-width: 400px;
   padding: 10px;
   background-color: black;
   border-radius: 20px;
@@ -67,7 +78,7 @@ body {
 
 .screenshots-images {
   margin-top: 5px;
-  margin-left: 210px;
+  margin-left: 175px;
   display: inline-flex;
   text-align: center;
   color: white;
@@ -90,12 +101,4 @@ body {
 
 .screenshots-images h3 {
   font-size: 15px;
-}
-
-#output {
-  color: white;
-  font-size: 22px;
-  margin:auto;
-  text-align: center;
-  border-radius: 10px;
 }
