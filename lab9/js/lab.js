@@ -9,8 +9,8 @@
   var new1El = document.createElement("p");
   new1El.innerHTML = "The First of November";
 
-  var new2El = document.createElement("h");
+  var new2El = document.createElement("p");
   new2El.innerHTML = "November 1st, that is today.";
 
-  new1El.appendChild(outputEl);
-  new2El.appendChild(outputEl);
+outputEl.appendChild(new1El);
+outputEl.appendChild(new2El);
