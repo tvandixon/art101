@@ -39,7 +39,7 @@ body {
 #outcomes-heading1 {
   font-style: oblique;
   color: pink;
-  font-size: 12px;
+  font-size: 14px;
   display: inline-flex;
   margin-left: 200px;
   margin-top: 30px;
@@ -47,7 +47,7 @@ body {
 
 #outcomes-info1 {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   color: white;
   display: inline-flex;
   max-width: 400px;
@@ -58,7 +58,7 @@ body {
 }
 
 #outcomes-heading2 {
-  font-size: 12px;
+  font-size: 14px;
   font-style: oblique;
   color: pink;
   display: inline-flex;
@@ -67,7 +67,7 @@ body {
 
 #outcomes-info2 {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   color: white;
   display: inline-flex;
   max-width: 400px;
@@ -78,7 +78,7 @@ body {
 
 .screenshots-images {
   margin-top: 5px;
-  margin-left: 125px;
+  margin-left: 100px;
   display: inline-flex;
   text-align: center;
   color: white;
