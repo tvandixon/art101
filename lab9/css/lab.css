@@ -41,7 +41,7 @@ body {
   color: pink;
   font-size: 12px;
   display: inline-flex;
-  margin-left: 250px;
+  margin-left: 225px;
   margin-top: 30px;
 }
 
@@ -78,7 +78,7 @@ body {
 
 .screenshots-images {
   margin-top: 5px;
-  margin-left: 175px;
+  margin-left: 150px;
   display: inline-flex;
   text-align: center;
   color: white;
