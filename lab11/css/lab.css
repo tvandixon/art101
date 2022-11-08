@@ -55,14 +55,13 @@ body {
   margin-bottom: 260px;
 }
 
-.jslink{
+.links{
   color: #896978;
   background-color: #FFD4CA;
   position: fixed;
   width: 100%;
   bottom: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   overflow: auto;
   margin: auto;
   text-align: center;
