@@ -3,22 +3,15 @@
  * Created:   11.1.2022
  */
 
-function scrambleUserName(enterName) {
-  var userName = enterName;
-  var letterArray = userName.split('');
-  var letterArraySort = letterArray.sort();
-  // Put the letters back together scrambled.
-  var letterSorted = letterArraySort.join("");
-  // Return scrambled name.
-  return letterSorted;
-}
+ document.addEventListener('DOMContentLoaded', function() {
+     var button = document.createElement('button');
+     button.type = 'button';
+     button.innerHTML = 'Press me';
+     button.className = 'btn-styled';
 
-var buttonEl = document.getElementById("my-button");
+     button.onclick = function() {
+         // …
+     };
 
-var outputEl = document.getElementById("output");
-
-buttonEl.addEventListener("click", function() {
-  var enteredName = document.getElementById("user-name").value
-  var sortedName = scrambleUserName(enteredName);
-  outputEl.innerHTML = sortedName;
-})
+     var challenges = document.getElementById('challenges');
+     container.appendChild(button);})
