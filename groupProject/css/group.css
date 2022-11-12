@@ -1,0 +1,38 @@
+html{
+background-image: url(https://img.freepik.com/free-photo/crumpled-white-paper_1194-7543.jpg?);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.map {
+  padding: 100px;
+  text-align: center;
+  margin: auto;
+  width: 50vh;
+  height: 75vh;
+}
+
+.navbar{
+  display: flex;
+	flex-direction: column;
+  align-content: flex-start;
+  float: right;
+  position: sticky;
+  transform: rotate(45deg);
+  background-image: url(https://www.pngkey.com/png/full/401-4012954_pink-eraser-transparent-images-pink-pearl-eraser.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 100px;
+  margin-top: 100px;
+  width: 350px;
+  padding: 25px;
+
+}
+
+.options img{
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.aboutUser
