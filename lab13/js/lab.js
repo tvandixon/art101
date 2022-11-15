@@ -40,6 +40,6 @@ for (var num = 1; num <= 200; num++) {
   else {
   str = num;
   }
-    $("#output").append("<p>" + str + "</p>");
+    $("#output").append("<p> " + str + "</p>");
 }
 });
