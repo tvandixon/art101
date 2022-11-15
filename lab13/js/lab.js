@@ -4,37 +4,42 @@
  */
 
 //print numbers 1 to 200
+
+$("#outputButton").click(function(){
 for (var num = 1; num <= 200; num++) {
 //set 3, 5, and 7 multiple string
   if (num % 105 == 0) {
-  console.log("FizzBuzzBoom!");
-  }
+  var str = "";
+  str = "FizzBuzzBoom!";
+    }
 //set 5 and 7 multiple string
   else if (num % 35 == 0) {
-  console.log("FizzBoom!");
+  str = "FizzBoom!";
   }
 //set 3 and 7 multiple string
   else if (num % 21 == 0) {
-  console.log("BuzzBoom!");
+  str = "BuzzBoom!";
   }
 //set 3 and 5 multiple string
   else if (num % 15 == 0) {
-  console.log("FizzBuzz!");
+  str = "FizzBuzz!";
   }
 //set 3 multiple string
   else if (num % 3 == 0) {
-  console.log("Buzz!");
+  str = "Buzz!";
   }
 //set 5 multiple string
   else if (num % 5 == 0) {
-  console.log("Fizz!");
+  str = "Fizz!";
   }
 //set 7 multiple string
   else if (num % 7 == 0) {
-  console.log("Boom!");
+  str = "Boom!";
   }
 //set any number outside of mutiples to print normally.
   else {
-  console.log(num);
+  str = num;
   }
+    $("#output").append("<p>" + str + "</p>");
 }
+});
