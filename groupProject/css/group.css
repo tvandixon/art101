@@ -2,14 +2,20 @@ html{
 background-image: url(https://img.freepik.com/free-photo/crumpled-white-paper_1194-7543.jpg?);
 background-repeat: no-repeat;
 background-size: cover;
+font-family: 'Gaegu';
 }
 
-.map {
-  padding: 100px;
-  text-align: center;
-  margin: auto;
-  width: 50vh;
-  height: 75vh;
+body{
+  background: url(https://housing.ucsc.edu/colleges/images/colleges-map-web-2017.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+html{
+background-image: url(https://img.freepik.com/free-photo/crumpled-white-paper_1194-7543.jpg?);
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Gaegu';
 }
 
 .navbar{
@@ -35,4 +41,30 @@ background-size: cover;
   padding: 5px;
 }
 
-.aboutUser
+#userFavorites{
+  display: none;
+  background: url(https://i.pinimg.com/originals/e8/d8/00/e8d80087e3cd48eeb60a6a294f25b963.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  width: 500px;
+  height: 650px;;
+  text-align: center;
+  margin-top: 100px;
+  float: left;
+  position: fixed;
+}
+
+#siteInfo{
+  display: none;
+  background: url(https://www.nicepng.com/png/full/9-91641_sticky-note-png-sticky-notes-transparent-png.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  width: 500px;
+  height: 650px;;
+  text-align: center;
+  margin-top: 100px;
+  float: left;
+  position: fixed;
+}

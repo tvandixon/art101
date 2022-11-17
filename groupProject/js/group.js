@@ -1,3 +1,7 @@
-$("#favorites").click(function(){
-  $(this).parent().toggleClass(".aboutUser");
+$("#favorites").click(function() {
+    $("#userFavorites").toggle("fast","swing");
+});
+
+$("#info").click(function() {
+    $("#siteInfo").toggle("fast","swing");
 });

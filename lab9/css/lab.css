@@ -1,28 +1,32 @@
-
 body {
-  background-image: url(https://img.wattpad.com/0c1912cd0abe972cc5a4df926ef106bdafe69a56/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6846314d7772712d694b67356a673d3d2d3936383938313930302e313633663739646161666138353537333832383136373734303432342e676966);
-  background-size: cover;
-  background-position: center;
+  background-color: #AA4465;
   font-family: 'Anonymous Pro';
   font-size: 22px;
-}
-
-#foreground {
-  position: absolute;
-  margin-top: -10px;
-  margin-left: -10px;
-  width: 1700px;
-  height: 1100px;
-  opacity: 0.8;
-  mix-blend-mode: difference;
+  margin: auto;
 }
 
 .title {
   text-align: center;
   font-style: oblique;
-  font-size: 14px;
-  color: white;
-  padding: 10px;
+  color: #1E000E;
+  background-color:#93E1D8;
+  padding: 20px;
+}
+
+#challenges, #problems {
+  color: black;
+  background: #FFA69E;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  width: 900px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#challenges h2, #problems h2{
+  color: #861657;
+  font-style: oblique;
 }
 
 #output {
@@ -36,69 +40,13 @@ body {
   color: pink;
 }
 
-#outcomes-heading1 {
-  font-style: oblique;
-  color: pink;
-  font-size: 14px;
-  display: inline-flex;
-  margin-left: 200px;
-  margin-top: 30px;
-}
-
-#outcomes-info1 {
-  text-align: center;
-  font-size: 14px;
-  color: white;
-  display: inline-flex;
-  max-width: 400px;
-  padding: 10px;
-  background-color: black;
-  border-radius: 20px;
-  margin-right: 50px;
-}
-
-#outcomes-heading2 {
-  font-size: 14px;
-  font-style: oblique;
-  color: pink;
-  display: inline-flex;
-  margin-top: 30px;
-}
-
-#outcomes-info2 {
-  text-align: center;
-  font-size: 14px;
-  color: white;
-  display: inline-flex;
-  max-width: 400px;
-  padding: 10px;
-  background-color: black;
-  border-radius: 20px;
-}
-
-.screenshots-images {
-  margin-top: 5px;
-  margin-left: 100px;
-  display: inline-flex;
-  text-align: center;
-  color: white;
-}
-
-.screenshots-images img {
-  padding: 10px;
-}
-
-.screenshots-images p {
-  font-style: italic;
-  font-size: 10px;
-  background-color: black;
+.links {
+  background-color: #1E000E;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   padding: 5px;
-  border-radius: 5px;
-  color: white;
-  margin: 10px;
-  margin-top: -10px;
-}
-
-.screenshots-images h3 {
-  font-size: 15px;
+  overflow: auto;
+  margin: auto;
+  text-align: center;
 }
