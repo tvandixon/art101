@@ -1,6 +1,6 @@
 html{
 background-image: url(https://img.freepik.com/free-photo/crumpled-white-paper_1194-7543.jpg?);
-background-repeat: no-repeat;
+background-repeat: repeat;
 background-size: cover;
 font-family: 'Gaegu';
 }
@@ -10,12 +10,6 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-}
-html{
-background-image: url(https://img.freepik.com/free-photo/crumpled-white-paper_1194-7543.jpg?);
-background-repeat: no-repeat;
-background-size: cover;
-font-family: 'Gaegu';
 }
 
 .navbar{
@@ -57,14 +51,31 @@ font-family: 'Gaegu';
 
 #siteInfo{
   display: none;
-  background: url(https://www.nicepng.com/png/full/9-91641_sticky-note-png-sticky-notes-transparent-png.png);
+  position: fixed;
+  background: url(https://pngfolio.com/images/all_img/copy/1634892847iphone-mockup-png.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
-  width: 500px;
-  height: 650px;;
+  width: 45vh;
+  height: 70vh;
   text-align: center;
-  margin-top: 100px;
-  float: left;
+  bottom: 0;
   position: fixed;
+
+}
+#siteInfo h1{
+  margin-left: 170px;
+}
+
+#siteInfo .info-panel{
+  position: sticky;
+  background-color: #abf0ff;
+  padding: 35px;
+  padding-bottom: 40px;
+  margin-top: 110px;
+  margin-left: 226px;
+  border-radius: 25px;
+  resize: none;
+  font-size: 1.4vh;
+  width: 15vh;
 }
