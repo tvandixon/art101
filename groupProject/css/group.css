@@ -6,10 +6,7 @@ font-family: 'Gaegu';
 }
 
 body{
-  background: url(https://housing.ucsc.edu/colleges/images/colleges-map-web-2017.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  cursor: url("https://img.icons8.com/external-kmg-design-flat-kmg-design/512/external-pencil-education-kmg-design-flat-kmg-design.png"), auto;
 }
 
 .navbar{
@@ -23,12 +20,29 @@ body{
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: 100px;
+  margin-left: -300px;
   margin-top: 100px;
   width: 350px;
   padding: 25px;
-
 }
+
+
+.map img{
+  box-shadow: 10px 10px 100px black;
+  width: 33%;
+  position:absolute;
+  left: 33%;
+  z-index: 0;
+}
+
+#pin1 {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  text-align: center;
+}
+
+
 
 .options img{
   border-radius: 20px;
@@ -37,45 +51,53 @@ body{
 
 #userFavorites{
   display: none;
-  background: url(https://i.pinimg.com/originals/e8/d8/00/e8d80087e3cd48eeb60a6a294f25b963.png);
+  position: fixed;
+  background: url(https://www.freeiconspng.com/thumbs/torn-paper/the-packaging-is-torn-paper-icon-clipart-photo-19.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
-  width: 500px;
-  height: 650px;;
   text-align: center;
-  margin-top: 100px;
-  float: left;
-  position: fixed;
+  width: 600px;
+  height: 500px;
+  right: 0;
+  bottom: 0;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+#userFavorites h1{
+  transform: rotate(-2deg);
+  margin-top: 75px;
 }
 
 #siteInfo{
-  display: none;
-  position: fixed;
+  position: absolute;
   background: url(https://pngfolio.com/images/all_img/copy/1634892847iphone-mockup-png.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
   width: 45vh;
   height: 70vh;
+  left: 5vw;
   text-align: center;
   bottom: 0;
-  position: fixed;
-
 }
 #siteInfo h1{
   margin-left: 170px;
 }
 
 #siteInfo .info-panel{
-  position: sticky;
+  position: fixed;
+  overflow: scroll;
+  left: 14.66vw;
+  padding: 15px;
+  padding-bottom: 400px;
+  top: 38.75%;
+  bottom: 6vw;
+  width: 10%;
+  max-height: 15%;
   background-color: #abf0ff;
-  padding: 35px;
-  padding-bottom: 40px;
-  margin-top: 110px;
-  margin-left: 226px;
-  border-radius: 25px;
-  resize: none;
-  font-size: 1.4vh;
-  width: 15vh;
+  border-radius: 30px;
+
+  font-size: 20px;
 }

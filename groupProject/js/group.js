@@ -3,5 +3,5 @@ $("#favorites").click(function() {
 });
 
 $("#info").click(function() {
-    $("#siteInfo").toggle();
+    $("#siteInfo").toggle("fast","swing");
 });
