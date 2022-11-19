@@ -37,12 +37,42 @@ body{
 
 #pin1 {
   z-index: 2;
-  position: absolute;
-  top: 0;
-  text-align: center;
+  position: fixed;
+  top: 38.5%;
+  left: 41.5%;
+  width: 20px;
 }
 
+#pin2 {
+  z-index: 2;
+  position: fixed;
+  top: 26%;
+  left: 37.5%;
+  width: 20px;
+}
 
+#pin3 {
+  z-index: 2;
+  position: fixed;
+  top: 12%;
+  left: 42%;
+}
+
+#pin4 {
+  z-index: 2;
+  position: fixed;
+  top: 40%;
+  left: 51.5%;
+  width: 20px;
+}
+
+#pin5 {
+  z-index: 2;
+  position: fixed;
+  top: 25%;
+  left: 51%;
+  width: 20px;
+}
 
 .options img{
   border-radius: 20px;
@@ -98,6 +128,5 @@ body{
   max-height: 15%;
   background-color: #abf0ff;
   border-radius: 30px;
-
   font-size: 20px;
 }
