@@ -106,34 +106,50 @@ $('#pin8').hover(function() {
 });
 
 //Connect pins to respective sticky note pop-ups.
-$("#pin1").click(function() {
-  $("#pinInfo1").toggle("fast", "swing");
+$("#pin1").hover(function() {
+  $("#pinInfo1").css("visibility", "visible");
+}, function() {
+  $("#pinInfo1").css("visibility", "hidden");
 });
 
-$("#pin2").click(function() {
-  $("#pinInfo2").toggle("fast", "swing");
+$("#pin2").hover(function() {
+  $("#pinInfo2").css("visibility", "visible");
+}, function() {
+  $("#pinInfo2").css("visibility", "hidden");
 });
 
-$("#pin3").click(function() {
-  $("#pinInfo3").toggle("fast", "swing");
+$("#pin3").hover(function() {
+  $("#pinInfo3").css("visibility", "visible");
+}, function() {
+  $("#pinInfo3").css("visibility", "hidden");
 });
 
-$("#pin4").click(function() {
-  $("#pinInfo4").toggle("fast", "swing");
+$("#pin4").hover(function() {
+  $("#pinInfo4").css("visibility", "visible");
+}, function() {
+  $("#pinInfo4").css("visibility", "hidden");
 });
 
-$("#pin5").click(function() {
-  $("#pinInfo5").toggle("fast", "swing");
+$("#pin5").hover(function() {
+  $("#pinInfo5").css("visibility", "visible");
+}, function() {
+  $("#pinInfo5").css("visibility", "hidden");
 });
 
-$("#pin6").click(function() {
-  $("#pinInfo6").toggle("fast", "swing");
+$("#pin6").hover(function() {
+  $("#pinInfo6").css("visibility", "visible");
+}, function() {
+  $("#pinInfo6").css("visibility", "hidden");
 });
 
-$("#pin7").click(function() {
-  $("#pinInfo7").toggle("fast", "swing");
+$("#pin7").hover(function() {
+  $("#pinInfo7").css("visibility", "visible");
+}, function() {
+  $("#pinInfo7").css("visibility", "hidden");
 });
 
-$("#pin8").click(function() {
-  $("#pinInfo8").toggle("fast", "swing");
+$("#pin8").hover(function() {
+  $("#pinInfo8").css("visibility", "visible");
+}, function() {
+  $("#pinInfo8").css("visibility", "hidden");
 });

@@ -3,6 +3,7 @@ html {
   background-repeat: repeat;
   background-size: cover;
   font-family: 'Gaegu';
+  cursor: url("https://img.icons8.com/external-kmg-design-flat-kmg-design/512/external-pencil-education-kmg-design-flat-kmg-design.png%22"), auto;}
 }
 
 body {
@@ -26,7 +27,7 @@ body {
   padding: 20px;
 }
 
-.navbar img:hover{
+.navbar img:hover {
   cursor: pointer;
   opacity: 90%;
   border-style: dashed;
@@ -55,18 +56,18 @@ body {
   color: white;
   position: fixed;
   box-shadow: 10px 10px 10px black;
-  right: 400px;
+  right: 20%;
   text-align: center;
-  width: 350px;
+  width: 10%;
   padding: 20px;
   border-radius: 20px;
   background-color: #41658A;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .map img {
   box-shadow: 10px 10px 100px black;
-  margin:auto;
+  margin: auto;
   width: 33%;
   height: 99%;
   position: absolute;
@@ -97,7 +98,7 @@ body {
   z-index: 2;
   position: fixed;
   top: 12%;
-  left: 41% ;
+  left: 41%;
   cursor: pointer;
   rotate: 56deg;
 }
@@ -145,110 +146,41 @@ body {
   rotate: 48deg;
 }
 
-#pinInfo1 {
-  display: none;
+#pinInfo1, #pinInfo2, #pinInfo3, #pinInfo4, #pinInfo5, #pinInfo6, #pinInfo7, #pinInfo8 {
+  visibility: hidden;
   position: fixed;
   background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
-  background-position: bottom;
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
-
-  width: 400px;
-  height: 345px;
+  top: 20%;
+  left: 2%;
+  width: 45vh;
+  height: auto;
+  padding: 50px;
+  margin-top: 75px;
+  font-size: 24px;
 }
 
-#pinInfo2 {
-  display: none;
-  position: fixed;
-  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-align: center;
-
-  width: 400px;
-  height: 345px;
+#pinInfo1 h2, #pinInfo2 h2,#pinInfo3 h2,#pinInfo4 h2,#pinInfo5 h2,#pinInfo6 h2,#pinInfo7 h2,#pinInfo8 h2{
+  rotate:-9deg;
+  margin-top: 50px;
+  margin-left: -50px;
 }
 
-#pinInfo3 {
-  display: none;
-  position: fixed;
-  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-align: center;
-
-  width: 400px;
-  height: 345px;
+#pinInfo1 p,#pinInfo2 p,#pinInfo3 p,#pinInfo4 p,#pinInfo5 p,#pinInfo6 p,#pinInfo7 p,#pinInfo8 p {
+  rotate:-9deg;
+  font-size: 18px;
 }
 
-#pinInfo4 {
-  display: none;
-  position: fixed;
-  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-align: center;
-
-  width: 400px;
-  height: 345px;
-  }
-
-#pinInfo5 {
-  display: none;
-  position: fixed;
-  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-align: center;
-
-  width: 400px;
-  height: 345px;
-  }
-
-#pinInfo6 {
-  display: none;
-  position: fixed;
-  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  text-align: center;
-
-  width: 400px;
-  height: 345px;
-  }
-
-#pinInfo7 {
-  display: none;
-  position: fixed;
-  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  text-align: center;
-;
-  width: 400px;
-  height: 345px;
-  }
-
-#pinInfo8 {
-  display: none;
-  position: fixed;
-  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-align: center;
-  width: 400px;
-  height: 345px;
-  }
+#pinInfo1 img, #pinInfo2 img,#pinInfo3 img,#pinInfo4 img,#pinInfo5 img,#pinInfo6 img,#pinInfo7 img,#pinInfo8 img{
+  margin-left: -20px;
+  box-shadow: 2px 2px 10px black;
+  border-style: dashed;
+  rotate:-9deg;
+  width: 60%;
+}
 
 .options img {
   border-radius: 20px;
@@ -293,7 +225,6 @@ body {
   min-height: 550px;
   margin-top: 20px;
   left: 250px;
-
   padding: 15px;
   background-color: #9BD1E5;
   border-radius: 30px;
@@ -310,7 +241,7 @@ body {
 #userPhone .info-panel #getStarted {
   color: #053C5E;
   font-size: 20px;
-  font-family:'Gaegu';
+  font-family: 'Gaegu';
   padding: 15px;
   background-color: #FDCA40;
   transition: 0.7s;
@@ -319,7 +250,7 @@ body {
 #userPhone .info-panel #learnMore {
   color: white;
   font-size: 20px;
-  font-family:'Gaegu';
+  font-family: 'Gaegu';
   margin-top: 5px;
   padding: 10px;
   background-color: #7C90DB;
@@ -359,14 +290,14 @@ body {
   padding: 10px;
 }
 
-#userPhone .aboutUs h3{
+#userPhone .aboutUs h3 {
   padding: 0;
   margin-top: -5px;
   margin-bottom: -15px;
   color: white;
 }
 
-#userPhone .aboutUs p{
+#userPhone .aboutUs p {
   margin-bottom: 40px;
 }
 
@@ -374,14 +305,13 @@ body {
   border-radius: 20px;
 }
 
-#userPhone .chooseAffiliation{
+#userPhone .chooseAffiliation {
   display: none;
   position: fixed;
   max-width: 235px;
   min-height: 550px;
   margin-top: 20px;
   left: 250px;
-
   padding: 15px;
   background-color: #9BD1E5;
   border-radius: 30px;
@@ -397,14 +327,14 @@ body {
   padding: 10px;
 }
 
-#userPhone .chooseAffiliation form{
+#userPhone .chooseAffiliation form {
   text-align: left;
 }
 
 #userPhone .chooseAffiliation button {
   color: #053C5E;
   font-size: 20px;
-  font-family:'Gaegu';
+  font-family: 'Gaegu';
   margin-top: 30px;
   padding: 15px;
   background-color: #FDCA40;
@@ -436,7 +366,7 @@ body {
   padding: 5px;
 }
 
-#printAffiliation{
+#printAffiliation {
   color: white;
   font-size: 36px;
   font-weight: bold;
