@@ -1,89 +1,264 @@
-html{
-background-image: url(https://img.freepik.com/free-photo/crumpled-white-paper_1194-7543.jpg?);
-background-repeat: repeat;
-background-size: cover;
-font-family: 'Gaegu';
+html {
+  background-image: url(https://img.freepik.com/free-photo/crumpled-white-paper_1194-7543.jpg?);
+  background-repeat: repeat;
+  background-size: cover;
+  font-family: 'Gaegu';
 }
 
-body{
+body {
   cursor: url("https://img.icons8.com/external-kmg-design-flat-kmg-design/512/external-pencil-education-kmg-design-flat-kmg-design.png"), auto;
 }
 
-.navbar{
+.navbar {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   align-content: flex-start;
   float: right;
   position: sticky;
   transform: rotate(45deg);
   background-image: url(https://www.pngkey.com/png/full/401-4012954_pink-eraser-transparent-images-pink-pearl-eraser.png);
-  background-size:contain;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   margin-left: -300px;
   margin-top: 100px;
-  width: 350px;
-  padding: 25px;
+  width: 300px;
+  padding: 20px;
 }
 
+.navbar img:hover{
+  cursor: pointer;
+  opacity: 90%;
+  border-style: dashed;
+  width: 75px;
+}
 
-.map img{
+.tip-phone {
+  visibility: hidden;
+  z-index: 2;
+  color: white;
+  position: fixed;
+  box-shadow: 10px 10px 10px black;
+  float: left;
+  bottom: 600px;
+  left: 15px;
+  text-align: center;
+  width: 150px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #41658A;
+}
+
+.tip-nav {
+  visibility: hidden;
+  z-index: 2;
+  color: white;
+  position: fixed;
+  box-shadow: 10px 10px 10px black;
+  right: 400px;
+  text-align: center;
+  width: 350px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #41658A;
+  font-size: 24px;
+}
+
+.map img {
   box-shadow: 10px 10px 100px black;
+  margin:auto;
   width: 33%;
-  position:absolute;
+  height: 99%;
+  position: absolute;
   left: 33%;
+  resize: none;
   z-index: 0;
+  padding: 0;
 }
 
 #pin1 {
-  z-index: 2;
+  z-index: 1;
   position: fixed;
-  top: 38.5%;
-  left: 41.5%;
-  width: 20px;
+  top: 39.5%;
+  left: 41%;
+  cursor: pointer;
 }
 
 #pin2 {
   z-index: 2;
   position: fixed;
-  top: 26%;
-  left: 37.5%;
-  width: 20px;
+  top: 26.5%;
+  left: 37%;
+  cursor: pointer;
+  rotate: 20deg;
 }
 
 #pin3 {
   z-index: 2;
   position: fixed;
   top: 12%;
-  left: 42%;
+  left: 41% ;
+  cursor: pointer;
+  rotate: 56deg;
 }
 
 #pin4 {
   z-index: 2;
   position: fixed;
-  top: 40%;
-  left: 51.5%;
-  width: 20px;
+  top: 42%;
+  left: 51%;
+  cursor: pointer;
 }
 
 #pin5 {
   z-index: 2;
   position: fixed;
-  top: 25%;
-  left: 51%;
-  width: 20px;
+  top: 26.5%;
+  left: 50.25%;
+  cursor: pointer;
+  rotate: 4deg;
 }
 
-.options img{
+#pin6 {
+  z-index: 2;
+  position: fixed;
+  top: 55.5%;
+  left: 55%;
+  rotate: 20deg;
+  cursor: pointer;
+}
+
+#pin7 {
+  z-index: 2;
+  position: fixed;
+  top: 75%;
+  left: 44.75%;
+  cursor: pointer;
+}
+
+#pin8 {
+  z-index: 2;
+  position: fixed;
+  top: 62%;
+  left: 37.25%;
+  cursor: pointer;
+  rotate: 48deg;
+}
+
+#pinInfo1 {
+  display: none;
+  position: fixed;
+  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  width: 400px;
+  height: 345px;
+}
+
+#pinInfo2 {
+  display: none;
+  position: fixed;
+  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  width: 400px;
+  height: 345px;
+}
+
+#pinInfo3 {
+  display: none;
+  position: fixed;
+  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  width: 400px;
+  height: 345px;
+}
+
+#pinInfo4 {
+  display: none;
+  position: fixed;
+  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  width: 400px;
+  height: 345px;
+  }
+
+#pinInfo5 {
+  display: none;
+  position: fixed;
+  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+
+  width: 400px;
+  height: 345px;
+  }
+
+#pinInfo6 {
+  display: none;
+  position: fixed;
+  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  text-align: center;
+
+  width: 400px;
+  height: 345px;
+  }
+
+#pinInfo7 {
+  display: none;
+  position: fixed;
+  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  text-align: center;
+;
+  width: 400px;
+  height: 345px;
+  }
+
+#pinInfo8 {
+  display: none;
+  position: fixed;
+  background-image: url(https://purepng.com/public/uploads/large/purepng.com-yellow-sticky-notessticky-notesclipartyellowpinnedtaped-1421526499874kcr69.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 400px;
+  height: 345px;
+  }
+
+.options img {
   border-radius: 20px;
   padding: 5px;
 }
 
-#userFavorites{
+#userFavorites {
   display: none;
   position: fixed;
-  background: url(https://www.freeiconspng.com/thumbs/torn-paper/the-packaging-is-torn-paper-icon-clipart-photo-19.png);
-  background-repeat: no-repeat;
+  background: url(https://i.pinimg.com/736x/f2/8b/57/f28b579a1f6d5100fa77fe6c0b02c72e.jpg);
   background-position: bottom;
   background-size: contain;
   text-align: center;
@@ -95,38 +270,174 @@ body{
   margin-bottom: 50px;
 }
 
-#userFavorites h1{
+#userFavorites h1 {
   transform: rotate(-2deg);
   margin-top: 75px;
 }
 
-#siteInfo{
+#userPhone {
   position: absolute;
   background: url(https://pngfolio.com/images/all_img/copy/1634892847iphone-mockup-png.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
-  width: 45vh;
-  height: 70vh;
-  left: 5vw;
+  width: 600px;
+  height: 800px;
   text-align: center;
   bottom: 0;
 }
-#siteInfo h1{
-  margin-left: 170px;
+
+#userPhone .info-panel {
+  position: fixed;
+  max-width: 235px;
+  min-height: 550px;
+  margin-top: 20px;
+  left: 250px;
+
+  padding: 15px;
+  background-color: #9BD1E5;
+  border-radius: 30px;
+  font-size: 18px;
 }
 
-#siteInfo .info-panel{
-  position: fixed;
-  overflow: scroll;
-  left: 14.66vw;
-  padding: 15px;
-  padding-bottom: 400px;
-  top: 38.75%;
-  bottom: 6vw;
-  width: 10%;
-  max-height: 15%;
-  background-color: #abf0ff;
+#userPhone .info-panel h2 {
+  color: white;
+  background-color: #6A8EAE;
   border-radius: 30px;
+  padding: 5px;
+}
+
+#userPhone .info-panel #getStarted {
+  color: #053C5E;
   font-size: 20px;
+  font-family:'Gaegu';
+  padding: 15px;
+  background-color: #FDCA40;
+  transition: 0.7s;
+}
+
+#userPhone .info-panel #learnMore {
+  color: white;
+  font-size: 20px;
+  font-family:'Gaegu';
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #7C90DB;
+  transition: 0.7s;
+}
+
+#userPhone .info-panel #learnMore:hover {
+  background-color: #736B92;
+  transition: 0.7s;
+}
+
+#userPhone .info-panel #getStarted:hover {
+  background-color: #BFDBF7;
+  transition: 0.7s;
+}
+
+#userPhone .aboutUs {
+  display: none;
+  position: fixed;
+  max-width: 235px;
+  max-height: 550px;
+  margin-top: 20px;
+  overflow-y: scroll;
+  left: 250px;
+  padding: 15px;
+  background-color: #9BD1E5;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+#userPhone .aboutUs h2 {
+  color: #F7FFF7;
+  text-align: center;
+  font-size: 24px;
+  background-color: #6A8EAE;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+#userPhone .aboutUs h3{
+  padding: 0;
+  margin-top: -5px;
+  margin-bottom: -15px;
+  color: white;
+}
+
+#userPhone .aboutUs p{
+  margin-bottom: 40px;
+}
+
+#userPhone .aboutUs img {
+  border-radius: 20px;
+}
+
+#userPhone .chooseAffiliation{
+  display: none;
+  position: fixed;
+  max-width: 235px;
+  min-height: 550px;
+  margin-top: 20px;
+  left: 250px;
+
+  padding: 15px;
+  background-color: #9BD1E5;
+  border-radius: 30px;
+  font-size: 22px;
+}
+
+#userPhone .chooseAffiliation h2 {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  background-color: #6A8EAE;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+#userPhone .chooseAffiliation form{
+  text-align: left;
+}
+
+#userPhone .chooseAffiliation button {
+  color: #053C5E;
+  font-size: 20px;
+  font-family:'Gaegu';
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #FDCA40;
+  transition: 0.7s;
+}
+
+#userPhone .chooseAffiliation button:hover {
+  background-color: #BFDBF7;
+  transition: 0.7s;
+}
+
+#userPhone .phoneHome {
+  display: none;
+  position: fixed;
+  max-width: 235px;
+  min-height: 550px;
+  margin-top: 20px;
+  left: 250px;
+  padding: 15px;
+  background-color: #9BD1E5;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+#userPhone .phoneHome h2 {
+  color: white;
+  background-color: #6A8EAE;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+#printAffiliation{
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
 }
