@@ -25,6 +25,7 @@ body {
   margin-top: 100px;
   width: 300px;
   padding: 20px;
+  z-index: 5;
 }
 
 .navbar img:hover {
@@ -89,8 +90,8 @@ body {
 #pin2 {
   z-index: 2;
   position: fixed;
-  top: 21.5%;
-  left: 39%;
+  top: 22.5%;
+  left: 39.5%;
   right
   cursor: pointer;
   rotate: 20deg;
@@ -99,8 +100,8 @@ body {
 #pin3 {
   z-index: 2;
   position: fixed;
-  top: 12%;
-  left: 41%;
+  top: 7%;
+  left: 43%;
   cursor: pointer;
   rotate: 56deg;
 }
@@ -108,16 +109,16 @@ body {
 #pin4 {
   z-index: 2;
   position: fixed;
-  top: 42%;
-  left: 51%;
+  top: 39%;
+  left: 53.5%;
   cursor: pointer;
 }
 
 #pin5 {
   z-index: 2;
   position: fixed;
-  top: 26.5%;
-  left: 50.25%;
+  top: 22.5%;
+  left: 53%;
   cursor: pointer;
   rotate: 4deg;
 }
@@ -125,8 +126,8 @@ body {
 #pin6 {
   z-index: 2;
   position: fixed;
-  top: 55.5%;
-  left: 55%;
+  top: 54%;
+  left: 57.5%;
   rotate: 20deg;
   cursor: pointer;
 }
@@ -135,15 +136,15 @@ body {
   z-index: 2;
   position: fixed;
   top: 75%;
-  left: 44.75%;
+  left: 47.25%;
   cursor: pointer;
 }
 
 #pin8 {
   z-index: 2;
   position: fixed;
-  top: 62%;
-  left: 37.25%;
+  top: 61.5%;
+  left: 39%;
   cursor: pointer;
   rotate: 48deg;
 }
@@ -158,11 +159,15 @@ body {
   text-align: center;
   top: 20%;
   left: 2%;
-  width: 45vh;
+  width: 20%;
   height: auto;
   padding: 50px;
   margin-top: 75px;
   font-size: 24px;
+}
+
+#pinInfo1 {
+  padding: 150px;
 }
 
 #pinInfo1 h2, #pinInfo2 h2,#pinInfo3 h2,#pinInfo4 h2,#pinInfo5 h2,#pinInfo6 h2,#pinInfo7 h2,#pinInfo8 h2{
@@ -219,7 +224,7 @@ body {
   height: 800px;
   text-align: center;
   bottom: 0;
-  z-index: 4;
+  z-index: 5;
 }
 
 #userPhone .info-panel {
@@ -373,4 +378,61 @@ body {
   color: white;
   font-size: 36px;
   font-weight: bold;
+}
+
+#backarrow{
+  background-color: white;
+}
+
+#backarrow:hover{
+  background-color: #91d3ff;
+  cursor: pointer;
+}
+
+.squiggle{
+  visibility: hidden;
+  z-index: 3;
+  position: absolute;
+  background-image: url("../img/squigglemain.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 99%;
+  width: 99.25%;
+  border-style: dashed;
+}
+
+.squiggle .title{
+  position: fixed;
+  background-image: url("../img/pinknote.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  top: 0%;
+  width: 600px;
+  height: 500px;
+  padding: 50px;
+  margin-top: 75px;
+  font-size: 20px;
+}
+
+.squiggle .title h1{
+  width: 50%;
+  margin-left: 175px;
+  margin-top: -0px;
+  text-align: center;
+}
+
+.squiggle .title p, .squiggle .title h5{
+  width: 70%;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.squiggle .title h5{
+  font-size: 30px;
+  padding-top:10px;
 }

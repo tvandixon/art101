@@ -142,6 +142,15 @@ $("#pin6").hover(function() {
   $("#pinInfo6").css("visibility", "hidden");
 });
 
+$("#pin6").click(function() {
+  $(".squiggle").css("visibility", "visible");
+});
+
+$("#backarrow").click(function() {
+  $(".squiggle").css("visibility", "hidden");
+});
+
+
 $("#pin7").hover(function() {
   $("#pinInfo7").css("visibility", "visible");
 }, function() {
