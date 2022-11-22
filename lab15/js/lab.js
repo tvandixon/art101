@@ -3,13 +3,16 @@
  * Created:   11.22.2022
  */
 
- $("#activate").click(getAPIData);
-
+ $('#activate').hover(function() {
+   $(".breadman").css("visibility", "visible");
+ }, function() {
+   $(".breadman").css("visibility", "hidden");
+ });
 
 function getAPIData() {
  // Using the core $.ajax() method
   $.ajax({
-    url: "http://www.yerkee.com/",
+    url: "https://my-bao-server.herokuapp.com/api/breadpuns",
     type: "GET",
   })
 
@@ -22,3 +25,5 @@ function getAPIData() {
     console.log(request,error);
   });
 }
+
+ $("#activate").click(getAPIData);
