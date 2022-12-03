@@ -17,7 +17,7 @@ body {
   float: right;
   position: sticky;
   transform: rotate(45deg);
-  background-image: url(https://www.pngkey.com/png/full/401-4012954_pink-eraser-transparent-images-pink-pearl-eraser.png);
+  background-image: url("../img/eraser.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
