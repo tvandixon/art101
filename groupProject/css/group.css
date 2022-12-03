@@ -436,3 +436,51 @@ body {
   font-size: 30px;
   padding-top:10px;
 }
+
+.koi{
+  visibility: hidden;
+  z-index: 3;
+  position: absolute;
+  background-image: url("../img/koilandmark.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 99%;
+  width: 99.25%;
+  border-style: dashed;
+}
+
+.koi .title{
+  position: fixed;
+  background-image: url("../img/pinknote.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  top: 0%;
+  width: 600px;
+  height: 500px;
+  padding: 50px;
+  margin-top: 75px;
+  font-size: 20px;
+}
+
+.koi .title h1{
+  width: 50%;
+  margin-left: 175px;
+  margin-top: -0px;
+  text-align: center;
+}
+
+.koi .title p, .squiggle .title h5{
+  width: 70%;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.koi .title h5{
+  font-size: 30px;
+  padding-top:10px;
+}
