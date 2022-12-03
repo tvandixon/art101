@@ -473,7 +473,7 @@ body {
   text-align: center;
 }
 
-.koi .title p, .squiggle .title h5{
+.koi .title p, .koi .title h5{
   width: 70%;
   margin-left: 100px;
   text-align: center;
