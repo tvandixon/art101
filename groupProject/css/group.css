@@ -193,6 +193,13 @@ body {
   padding: 5px;
 }
 
+#slugSlideShow img {
+  position: fixed;
+  z-index: 12;
+  bottom: 433px;
+  right: 75px;
+}
+
 #slugSlideShow {
   display: none;
   position: fixed;
@@ -279,6 +286,13 @@ body {
   background-color: #6A8EAE;
   border-radius: 30px;
   padding: 5px;
+  margin-top: -10px;
+}
+
+#userPhone .info-panel h2 img{
+  margin-top:-15px;
+  margin-bottom:-10px;
+  margin-left: -10px;
 }
 
 #userPhone .info-panel #getStarted {
