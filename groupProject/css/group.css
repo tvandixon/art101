@@ -92,7 +92,6 @@ body {
   position: fixed;
   top: 22.5%;
   left: 39.5%;
-  right
   cursor: pointer;
   rotate: 20deg;
 }
@@ -433,6 +432,300 @@ body {
 }
 
 .squiggle .title h5{
+  font-size: 30px;
+  padding-top:10px;
+}
+
+.koi{
+  visibility: hidden;
+  z-index: 3;
+  position: absolute;
+  background-image: url("../img/koilandmark.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 99%;
+  width: 99.25%;
+  border-style: dashed;
+}
+
+.koi .title{
+  position: fixed;
+  background-image: url("../img/pinknote.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  bottom: 0;
+  right: 10;
+  width: 600px;
+  height: 500px;
+  padding: 50px;
+  margin-top: 75px;
+  font-size: 20px;
+}
+
+.koi .title h1{
+  width: 50%;
+  margin-left: 175px;
+  margin-top: -0px;
+  text-align: center;
+}
+
+.koi .title p, .koi .title h5{
+  width: 70%;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.koi .title h5{
+  font-size: 30px;
+  padding-top:10px;
+}
+
+.rock{
+  visibility: hidden;
+  z-index: 3;
+  position: absolute;
+  background-image: url("../img/koilandmark.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 99%;
+  width: 99.25%;
+  border-style: dashed;
+}
+
+.rock .title{
+  position: fixed;
+  background-image: url("../img/pinknote.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  bottom: 0;
+  right: 10;
+  width: 600px;
+  height: 500px;
+  padding: 50px;
+  margin-top: 75px;
+  font-size: 20px;
+}
+
+.rock .title h1{
+  width: 50%;
+  margin-left: 175px;
+  margin-top: -0px;
+  text-align: center;
+}
+
+.rock .title p, .rock .title h5{
+  width: 70%;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.rock .title h5{
+  font-size: 30px;
+  padding-top:10px;
+}
+
+.wishing{
+  visibility: hidden;
+  z-index: 3;
+  position: absolute;
+  background-image: url("../img/wishing.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 99%;
+  width: 99.25%;
+  border-style: dashed;
+}
+
+.wishing .title{
+  position: fixed;
+  background-image: url("../img/pinknote.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  bottom: 0;
+  right: 10;
+  width: 600px;
+  height: 500px;
+  padding: 50px;
+  margin-top: 75px;
+  font-size: 20px;
+}
+
+.wishing .title h1{
+  width: 50%;
+  margin-left: 175px;
+  margin-top: -0px;
+  text-align: center;
+}
+
+.wishing .title p, .wishing .title h5{
+  width: 70%;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.wishing .title h5{
+  font-size: 30px;
+  padding-top:10px;
+}
+
+.caves{
+  visibility: hidden;
+  z-index: 3;
+  position: absolute;
+  background-image: url("../img/cave.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 99%;
+  width: 99.25%;
+  border-style: dashed;
+}
+
+.caves .title{
+  position: fixed;
+  background-image: url("../img/pinknote.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  bottom: 0;
+  right: 10;
+  width: 600px;
+  height: 500px;
+  padding: 50px;
+  margin-top: 75px;
+  font-size: 20px;
+}
+
+.caves .title h1{
+  width: 50%;
+  margin-left: 175px;
+  margin-top: -0px;
+  text-align: center;
+}
+
+.caves .title p, .caves .title h5{
+  width: 70%;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.caves .title h5{
+  font-size: 30px;
+  padding-top:10px;
+}
+
+.eden{
+  visibility: hidden;
+  z-index: 3;
+  position: absolute;
+  background-image: url("../img/eden.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 99%;
+  width: 99.25%;
+  border-style: dashed;
+}
+
+.eden .title{
+  position: fixed;
+  background-image: url("../img/pinknote.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  bottom: 0;
+  right: 10;
+  width: 600px;
+  height: 500px;
+  padding: 50px;
+  margin-top: 75px;
+  font-size: 20px;
+}
+
+.eden .title h1{
+  width: 50%;
+  margin-left: 175px;
+  margin-top: -0px;
+  text-align: center;
+}
+
+.eden .title p, .eden .title h5{
+  width: 70%;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.eden .title h5{
+  font-size: 30px;
+  padding-top:10px;
+}
+
+.meadows{
+  visibility: hidden;
+  z-index: 3;
+  position: absolute;
+  background-image: url("../img/meadow.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 99%;
+  width: 99.25%;
+  border-style: dashed;
+}
+
+.meadows .title{
+  position: fixed;
+  background-image: url("../img/pinknote.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  bottom: 0;
+  right: 10;
+  width: 600px;
+  height: 500px;
+  padding: 50px;
+  margin-top: 75px;
+  font-size: 20px;
+}
+
+.meadows .title h1{
+  width: 50%;
+  margin-left: 175px;
+  margin-top: -0px;
+  text-align: center;
+}
+
+.meadows .title p, .koi .title h5{
+  width: 70%;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.meadows .title h5{
   font-size: 30px;
   padding-top:10px;
 }

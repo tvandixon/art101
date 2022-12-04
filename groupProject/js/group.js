@@ -162,3 +162,11 @@ $("#pin8").hover(function() {
 }, function() {
   $("#pinInfo8").css("visibility", "hidden");
 });
+
+$("#pin8").click(function() {
+  $(".koi").css("visibility", "visible");
+});
+
+$("#backarrow").click(function() {
+  $(".koi").css("visibility", "hidden");
+});
