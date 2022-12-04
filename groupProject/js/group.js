@@ -118,10 +118,26 @@ $("#pin2").hover(function() {
   $("#pinInfo2").css("visibility", "hidden");
 });
 
+$("#pin2").click(function() {
+  $(".rock").css("visibility", "visible");
+});
+
+$("#backarrow2").click(function() {
+  $(".rock").css("visibility", "hidden");
+});
+
 $("#pin3").hover(function() {
   $("#pinInfo3").css("visibility", "visible");
 }, function() {
   $("#pinInfo3").css("visibility", "hidden");
+});
+
+$("#pin3").click(function() {
+  $(".wishing").css("visibility", "visible");
+});
+
+$("#backarrow2").click(function() {
+  $(".wishing").css("visibility", "hidden");
 });
 
 $("#pin4").hover(function() {
@@ -130,10 +146,26 @@ $("#pin4").hover(function() {
   $("#pinInfo4").css("visibility", "hidden");
 });
 
+$("#pin4").click(function() {
+  $(".meadows").css("visibility", "visible");
+});
+
+$("#backarrow2").click(function() {
+  $(".meadows").css("visibility", "hidden");
+});
+
 $("#pin5").hover(function() {
   $("#pinInfo5").css("visibility", "visible");
 }, function() {
   $("#pinInfo5").css("visibility", "hidden");
+});
+
+$("#pin5").click(function() {
+  $(".eden").css("visibility", "visible");
+});
+
+$("#backarrow2").click(function() {
+  $(".eden").css("visibility", "hidden");
 });
 
 $("#pin6").hover(function() {
@@ -150,11 +182,18 @@ $("#backarrow1").click(function() {
   $(".squiggle").css("visibility", "hidden");
 });
 
-
 $("#pin7").hover(function() {
   $("#pinInfo7").css("visibility", "visible");
 }, function() {
   $("#pinInfo7").css("visibility", "hidden");
+});
+
+$("#pin7").click(function() {
+  $(".caves").css("visibility", "visible");
+});
+
+$("#backarrow2").click(function() {
+  $(".caves").css("visibility", "hidden");
 });
 
 $("#pin8").hover(function() {
