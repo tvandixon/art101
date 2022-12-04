@@ -196,12 +196,13 @@ body {
 #slugSlideShow {
   display: none;
   position: fixed;
-  background: url(https://i.pinimg.com/736x/f2/8b/57/f28b579a1f6d5100fa77fe6c0b02c72e.jpg);
+  background: url();
   background-position: bottom;
   background-size: contain;
   text-align: center;
   width: 600px;
   height: 500px;
+  padding: 20px;
   right: 0;
   bottom: 0;
   margin-right: 100px;
@@ -393,6 +394,60 @@ body {
 }
 
 #backarrow2:hover{
+  background-color: #91d3ff;
+  cursor: pointer;
+}
+
+#backarrow3{
+  background-color: white;
+}
+
+#backarrow3:hover{
+  background-color: #91d3ff;
+  cursor: pointer;
+}
+
+#backarrow4{
+  background-color: white;
+}
+
+#backarrow4:hover{
+  background-color: #91d3ff;
+  cursor: pointer;
+}
+
+#backarrow5{
+  background-color: white;
+}
+
+#backarrow5:hover{
+  background-color: #91d3ff;
+  cursor: pointer;
+}
+
+#backarrow6{
+  background-color: white;
+}
+
+#backarrow6:hover{
+  background-color: #91d3ff;
+  cursor: pointer;
+}
+
+#backarrow7{
+  background-color: white;
+}
+
+#backarrow7:hover{
+  background-color: #91d3ff;
+  cursor: pointer;
+}
+
+#backarrow8{
+  background-color: white;
+}
+
+#backarrow8:hover{
   background-color: #91d3ff;
   cursor: pointer;
 }
