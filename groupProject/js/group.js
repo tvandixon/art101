@@ -14,9 +14,9 @@ $('#userPhone').hover(function() {
   $(".tip-phone").css("visibility", "hidden");
 });
 
-//link favorites pop up to heart icon.
-$("#favorites").click(function() {
-  $("#userFavorites").toggle("fast", "swing");
+//link statements pop up to person icon.
+$("#slugStatementsButton").click(function() {
+  $("#slugSlideShow").toggle("fast", "swing");
 });
 
 //link phone toggle to phone icon.
@@ -146,7 +146,7 @@ $("#pin6").click(function() {
   $(".squiggle").css("visibility", "visible");
 });
 
-$("#backarrow").click(function() {
+$("#backarrow1").click(function() {
   $(".squiggle").css("visibility", "hidden");
 });
 
@@ -167,6 +167,6 @@ $("#pin8").click(function() {
   $(".koi").css("visibility", "visible");
 });
 
-$("#backarrow").click(function() {
+$("#backarrow2").click(function() {
   $(".koi").css("visibility", "hidden");
 });

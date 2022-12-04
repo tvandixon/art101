@@ -193,7 +193,7 @@ body {
   padding: 5px;
 }
 
-#userFavorites {
+#slugSlideShow {
   display: none;
   position: fixed;
   background: url(https://i.pinimg.com/736x/f2/8b/57/f28b579a1f6d5100fa77fe6c0b02c72e.jpg);
@@ -208,7 +208,7 @@ body {
   margin-bottom: 50px;
 }
 
-#userFavorites h1 {
+#slugSlideShow h1 {
   transform: rotate(-2deg);
   margin-top: 75px;
 }
@@ -388,6 +388,15 @@ body {
   cursor: pointer;
 }
 
+#backarrow2{
+  background-color: white;
+}
+
+#backarrow2:hover{
+  background-color: #91d3ff;
+  cursor: pointer;
+}
+
 .squiggle{
   visibility: hidden;
   z-index: 3;
@@ -458,7 +467,7 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   bottom: 0;
-  right: 10;
+  right: 0;
   width: 600px;
   height: 500px;
   padding: 50px;
