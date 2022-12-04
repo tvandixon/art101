@@ -122,7 +122,7 @@ $("#pin2").click(function() {
   $(".rock").css("visibility", "visible");
 });
 
-$("#backarrow2").click(function() {
+$("#backarrow7").click(function() {
   $(".rock").css("visibility", "hidden");
 });
 
@@ -136,7 +136,7 @@ $("#pin3").click(function() {
   $(".wishing").css("visibility", "visible");
 });
 
-$("#backarrow2").click(function() {
+$("#backarrow3").click(function() {
   $(".wishing").css("visibility", "hidden");
 });
 
@@ -150,7 +150,7 @@ $("#pin4").click(function() {
   $(".meadows").css("visibility", "visible");
 });
 
-$("#backarrow2").click(function() {
+$("#backarrow6").click(function() {
   $(".meadows").css("visibility", "hidden");
 });
 
@@ -164,7 +164,7 @@ $("#pin5").click(function() {
   $(".eden").css("visibility", "visible");
 });
 
-$("#backarrow2").click(function() {
+$("#backarrow5").click(function() {
   $(".eden").css("visibility", "hidden");
 });
 
@@ -192,7 +192,7 @@ $("#pin7").click(function() {
   $(".caves").css("visibility", "visible");
 });
 
-$("#backarrow2").click(function() {
+$("#backarrow4").click(function() {
   $(".caves").css("visibility", "hidden");
 });
 
