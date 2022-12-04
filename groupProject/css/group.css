@@ -727,7 +727,7 @@ body {
   text-align: center;
 }
 
-.meadows .title p, .koi .title h5{
+.meadows .title p, .meadows .title h5{
   width: 70%;
   margin-left: 100px;
   text-align: center;
