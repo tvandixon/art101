@@ -169,6 +169,8 @@ body {
   padding: 150px;
 }
 
+
+
 #pinInfo1 h2, #pinInfo2 h2,#pinInfo3 h2,#pinInfo4 h2,#pinInfo5 h2,#pinInfo6 h2,#pinInfo7 h2,#pinInfo8 h2{
   rotate:-9deg;
   margin-top: 50px;
@@ -178,6 +180,12 @@ body {
 #pinInfo1 p,#pinInfo2 p,#pinInfo3 p,#pinInfo4 p,#pinInfo5 p,#pinInfo6 p,#pinInfo7 p,#pinInfo8 p {
   rotate:-9deg;
   font-size: 18px;
+}
+
+#pinInfo1 p{
+  width: 350px;
+  margin-left: 75px;
+  font-size: 30px;
 }
 
 #pinInfo1 img, #pinInfo2 img,#pinInfo3 img,#pinInfo4 img,#pinInfo5 img,#pinInfo6 img,#pinInfo7 img,#pinInfo8 img{
