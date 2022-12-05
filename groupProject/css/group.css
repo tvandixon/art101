@@ -53,11 +53,11 @@ body {
 
 .tip-nav {
   visibility: hidden;
-  z-index: 2;
   color: white;
   position: fixed;
   box-shadow: 10px 10px 10px black;
   right: 20%;
+  top:100px;
   text-align: center;
   width: 10%;
   padding: 20px;
@@ -217,6 +217,7 @@ body {
   bottom: 0;
   margin-right: 100px;
   margin-bottom: 100px;
+  z-index: 11;
 }
 
 #slugSlideShow h1 {
@@ -570,13 +571,14 @@ body {
   visibility: hidden;
   z-index: 3;
   position: absolute;
-  background-image: url("../img/squigglemain.jpg");
-  background-color: white;
+  background: url("../img/squigglemain.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 99%;
-  width: 99.25%;
+  height: 90%;
+  width: 70%;
+  left: 15%;
+  top: 5%;
   border-style: dashed;
 }
 
@@ -587,7 +589,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
-  top: 0%;
+  top: 150px;
+  left: 250px;
   width: 600px;
   height: 500px;
   padding: 50px;
@@ -598,33 +601,37 @@ body {
 .squiggle .title h1{
   width: 50%;
   margin-left: 175px;
-  margin-top: -0px;
+  margin-top: 10px;
   text-align: center;
+  font-size: 30px;
 }
 
 .squiggle .title p, .squiggle .title h5{
   width: 70%;
   margin-left: 100px;
+  margin-top: -3px;
   text-align: center;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .squiggle .title h5{
   font-size: 30px;
-  padding-top:10px;
+  padding-top:20px;
+  margin-bottom: 15px;
 }
 
 .koi{
   visibility: hidden;
   z-index: 3;
   position: absolute;
-  background-image: url("../img/koilandmark.jpg");
-  background-color: white;
-  background-repeat: no-repeat;
+  background: url("../img/koilandmark.jpg");
+  background-repeat: no-repeat,repeat;
   background-position: center;
   background-size: cover;
-  height: 99%;
-  width: 99.25%;
+  height: 90%;
+  width: 70%;
+  left: 15%;
+  top: 5%;
   border-style: dashed;
 }
 
@@ -635,8 +642,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
-  bottom: 0;
-  right: 0;
+  top: 0;
+  right: 300px;
   width: 600px;
   height: 500px;
   padding: 50px;
@@ -654,6 +661,7 @@ body {
 .koi .title p, .koi .title h5{
   width: 70%;
   margin-left: 100px;
+  margin-top: -15px;
   text-align: center;
   font-size: 24px;
 }
@@ -667,13 +675,14 @@ body {
   visibility: hidden;
   z-index: 3;
   position: absolute;
-  background-image: url("../img/rockgarden.jpg");
-  background-color: white;
+  background: url("../img/rockgarden.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 99%;
-  width: 99.25%;
+  height: 90%;
+  width: 70%;
+  left: 15%;
+  top: 5%;
   border-style: dashed;
 }
 
@@ -684,8 +693,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
-  bottom: 0;
-  right: 10;
+  bottom: -30px;
+  left: 275px;
   width: 600px;
   height: 500px;
   padding: 50px;
@@ -696,33 +705,37 @@ body {
 .rock .title h1{
   width: 50%;
   margin-left: 175px;
-  margin-top: -0px;
+  margin-top: 10px;
   text-align: center;
+  font-size: 30px;
 }
 
 .rock .title p, .rock .title h5{
   width: 70%;
   margin-left: 100px;
+  margin-top: -3px;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .rock .title h5{
   font-size: 30px;
-  padding-top:10px;
+  padding-top:20px;
+  margin-bottom: 15px;
 }
 
 .wishing{
   visibility: hidden;
   z-index: 3;
   position: absolute;
-  background-image: url("../img/wishing.jpg");
-  background-color: white;
+  background: url("../img/wishing.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 99%;
-  width: 99.25%;
+  height: 90%;
+  width: 70%;
+  left: 15%;
+  top: 5%;
   border-style: dashed;
 }
 
@@ -734,7 +747,7 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   bottom: 0;
-  right: 0;
+  right: 300px;
   width: 600px;
   height: 500px;
   padding: 50px;
@@ -745,33 +758,37 @@ body {
 .wishing .title h1{
   width: 50%;
   margin-left: 175px;
-  margin-top: -0px;
+  margin-top: 10px;
   text-align: center;
+  font-size: 30px;
 }
 
 .wishing .title p, .wishing .title h5{
   width: 70%;
   margin-left: 100px;
+  margin-top: -3px;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .wishing .title h5{
   font-size: 30px;
-  padding-top:10px;
+  padding-top:20px;
+  margin-bottom: 15px;
 }
 
 .caves{
   visibility: hidden;
   z-index: 3;
   position: absolute;
-  background-image: url("../img/cave.jpg");
-  background-color: white;
+  background: url("../img/cave.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 99%;
-  width: 99.25%;
+  height: 90%;
+  width: 70%;
+  left: 15%;
+  top: 5%;
   border-style: dashed;
 }
 
@@ -783,7 +800,7 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   bottom: 0;
-  right: 0;
+  right: 300px;
   width: 600px;
   height: 500px;
   padding: 50px;
@@ -794,33 +811,37 @@ body {
 .caves .title h1{
   width: 50%;
   margin-left: 175px;
-  margin-top: -0px;
+  margin-top: 10px;
   text-align: center;
+  font-size: 30px;
 }
 
 .caves .title p, .caves .title h5{
   width: 70%;
   margin-left: 100px;
+  margin-top: -3px;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .caves .title h5{
   font-size: 30px;
-  padding-top:10px;
+  padding-top:20px;
+  margin-bottom: 15px;
 }
 
 .eden{
   visibility: hidden;
   z-index: 3;
   position: absolute;
-  background-image: url("../img/eden.jpg");
-  background-color: white;
+  background: url("../img/eden.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 99%;
-  width: 99.25%;
+  height: 90%;
+  width: 70%;
+  left: 15%;
+  top: 5%;
   border-style: dashed;
 }
 
@@ -831,8 +852,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
-  bottom: 0;
-  right: 10;
+  bottom: -30px;
+  left: 275px;
   width: 600px;
   height: 500px;
   padding: 50px;
@@ -843,33 +864,38 @@ body {
 .eden .title h1{
   width: 50%;
   margin-left: 175px;
-  margin-top: -0px;
+  margin-top: 10px;
   text-align: center;
+  font-size: 30px;
 }
 
 .eden .title p, .eden .title h5{
   width: 70%;
   margin-left: 100px;
+  margin-top: -3px;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .eden .title h5{
   font-size: 30px;
-  padding-top:10px;
+  padding-top:20px;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 
 .meadows{
   visibility: hidden;
   z-index: 3;
   position: absolute;
-  background-image: url("../img/meadow.jpg");
-  background-color: white;
+  background: url("../img/meadow.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 99%;
-  width: 99.25%;
+  height: 90%;
+  width: 70%;
+  left: 15%;
+  top: 5%;
   border-style: dashed;
 }
 
@@ -880,8 +906,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
-  top: 0;
-  right: 10;
+  top: -80px;
+  right: 300px;
   width: 600px;
   height: 500px;
   padding: 50px;
@@ -892,19 +918,21 @@ body {
 .meadows .title h1{
   width: 50%;
   margin-left: 175px;
-  margin-top: -0px;
+  margin-top: 10px;
   text-align: center;
+  font-size: 30px;
 }
 
 .meadows .title p, .meadows .title h5{
   width: 70%;
   margin-left: 100px;
-  margin-top: -25px;
+  margin-top: -3px;
   text-align: center;
-  font-size: 21px;
+  font-size: 20px;
 }
 
 .meadows .title h5{
   font-size: 30px;
-  padding-top:10px;
+  padding-top:20px;
+  margin-bottom: 15px;
 }

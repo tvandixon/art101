@@ -143,6 +143,7 @@ $("#pin2").hover(function() {
   $("#pinInfo2").css("visibility", "hidden");
 });
 
+
 $("#pin2").click(function() {
   $(".rock").css("visibility", "visible");
 });
@@ -150,6 +151,7 @@ $("#pin2").click(function() {
 $("#backarrow7").click(function() {
   $(".rock").css("visibility", "hidden");
 });
+
 
 $("#pin3").hover(function() {
   $("#pinInfo3").css("visibility", "visible");
