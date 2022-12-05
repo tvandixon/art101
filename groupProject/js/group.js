@@ -1,5 +1,3 @@
-
-
 //create event when hovering over navbar. Show div of navigation tips.
 $('.navbar').hover(function() {
   $(".tip-nav").css("visibility", "visible");
@@ -47,6 +45,33 @@ function displayUserAffiliation() {
       document.getElementById("printAffiliation").innerHTML = selectedCollege[i].value;
   }
 }
+
+//Create interactable slideshow of content from survey, with help from W3 schools.
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slideContent");
+  if (n > slides.length) {
+    slideIndex = 1
+  }
+  if (n < 1) {
+    slideIndex = slides.length
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex - 1].style.display = "block";
+};
 
 //Establish scaling animation when hovering over each pin.
 //pin 1 animation
