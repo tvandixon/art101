@@ -244,13 +244,18 @@ body {
   margin-top: 33px;
   font-size: 30px;
   font-weight: lighter;
+  background: white;
+  border-style: solid;
+  border-color: #6A8EAE;
 }
 
 .slideContent h4{
   margin-top: 5px;
-  font-size: 22px;
+  font-size: 21px;
   font-weight: lighter;
   background-color: white;
+  border-style: solid;
+  border-color: #6A8EAE;
 }
 
 .slideContent h5{
@@ -258,8 +263,23 @@ body {
   font-size: 20.5px;
   font-weight: lighter;
   background-color: white;
+  border-style: solid;
+  border-color: #6A8EAE;
 }
 
+.slideContent h6{
+  margin-top: 5px;
+  font-size: 19px;
+  font-weight: lighter;
+  background-color: white;
+  border-style: solid;
+  border-color: #6A8EAE;
+}
+
+.slideContent #slideEnd{
+  margin-top: 105px;
+  font-size: 33px;
+}
 
 .prev, .next {
   cursor: pointer;
@@ -287,7 +307,6 @@ body {
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   border-radius: 100%;
   color: #6A8EAE;
@@ -475,11 +494,11 @@ body {
   font-weight: bold;
 }
 
-#backarrow{
+#backarrow1{
   background-color: white;
 }
 
-#backarrow:hover{
+#backarrow1:hover{
   background-color: #91d3ff;
   cursor: pointer;
 }
